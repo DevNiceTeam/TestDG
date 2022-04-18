@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/MyApplication3/app/src/main/res/layout/settings_activity.xml" value="0.21927083333333333" />
+        <entry key="..\:/TestDG/app/src/main/res/layout/activity_main.xml" value="0.3125" />
+        <entry key="..\:/TestDG/app/src/main/res/layout/activity_main2.xml" value="0.3125" />
+        <entry key="..\:/TestDG/app/src/main/res/layout/fragment_first.xml" value="0.3125" />
+        <entry key="..\:/TestDG/app/src/main/res/layout/settings_activity.xml" value="0.3125" />
       </map>
     </option>
   </component>

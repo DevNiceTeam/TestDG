@@ -162,6 +162,7 @@ package com.example.myapplication3;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -264,16 +265,21 @@ public class MainActivity extends AppCompatActivity
         }
         else
         {
-
             List<db> list2 = new ArrayList<db>();
-            dbs.removeIf(e -> list2.contains(editText.getText().toString()));
+            dbs.removeIf(e -> dbs.contains(editText.getText().toString()));
         }
     }
-//
-//    public void onMyButtonClickMobileInfo(View view) //add//
-//    {
-//
-//    }
+
+    public void onMyButtonClickMobileInfo(View view) //add//
+    {
+        Intent intent = new Intent(this, SysinfoActivity.class);
+        startActivity(intent);
+    }
+
+    public void onMyButtonClickClear(View view) //add//
+    {
+        upd(true);
+    }
 
     void upd(boolean b)
     {
