@@ -2,8 +2,9 @@ package com.example.myapplication3;
 
 import android.text.Editable;
 
-class db
-{
+import java.util.ArrayList;
+
+class db extends ArrayList<db> {
     private String name;
     private String description;
 
